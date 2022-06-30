@@ -86,7 +86,7 @@ const ViewOnePoll = () => {
                 <div className="voting--dojo">
                     <h1>Voting Dojo</h1>
                 </div>
-                <div><Link to={"/"}><button className="btn btn-success">Back to the Main Page</button></Link></div>
+                <div><Link to={"/"}><button className="btn btn-success">Back to Main Page</button></Link></div>
             <div>
                 <div>
                     <h1><Link to={`/poll/results/${id}`} >{question}</Link></h1>

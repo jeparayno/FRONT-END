@@ -37,7 +37,7 @@ const ViewPoll = (props) => {
                 <h1>Voting Dojo</h1>
             </div>
             <div>
-                <Link to={'/create'}><button className="btn btn-success">Create your own Poll</button></Link>
+                <Link to={'/create'}><button className="btn btn-success">Create your own Polls</button></Link>
             </div>
             <br />
             <div className="main--page">
